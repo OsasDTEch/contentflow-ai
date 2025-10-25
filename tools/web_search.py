@@ -1,7 +1,8 @@
 from dotenv import load_dotenv
 from pydantic_ai import Agent
 from  pydantic_ai.common_tools.duckduckgo import duckduckgo_search_tool
-from pydantic_ai.models.google import GoogleModel, GoogleProvider
+from pydantic_ai.models.google import GoogleModel
+from pydantic_ai.providers.google import GoogleProvider
 import os
 load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
