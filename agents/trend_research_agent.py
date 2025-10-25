@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
-from pydantic_ai.models.google import GoogleModel, GoogleProvider
+from pydantic_ai.models.google import GoogleModel
+from pydantic_ai.providers.google import GoogleProvider
 from pydantic_ai import Agent
 import os
 load_dotenv()
